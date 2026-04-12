@@ -1,0 +1,9 @@
+using MediatR;
+using OnlineTravel.Application.Features.Categories.Shared;
+using OnlineTravel.Domain.Enums;
+using OnlineTravel.Domain.ErrorHandling;
+
+namespace OnlineTravel.Application.Features.Categories.GetCategoriesByType
+{
+	public record GetCategoriesByTypeQuery(CategoryType Type) : IRequest<Result<List<CategoryResponse>>>;
+}
