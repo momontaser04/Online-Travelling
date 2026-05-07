@@ -105,8 +105,4 @@ The project is structured into four layers, enforcing a clear separation of busi
    - Stripe API Keys
    - SMTP and JWT settings
 
-3. **Run:**
-   ```bash
-   dotnet run --project OnlineTravel.Mvc
-   ```
-   The database will be automatically created and seeded on the first run.
+   > The database will be automatically created and seeded on the first run.
