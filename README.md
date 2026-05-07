@@ -96,7 +96,7 @@ The project is structured into four layers, enforcing a clear separation of busi
 
 1. **Clone the project:**
    ```bash
-   git clone https://github.com/yourusername/OnlineTravel.git
+   git clone https://github.com/momontaser04/OnlineTravel.git
    ```
 
 2. **Configure:**
